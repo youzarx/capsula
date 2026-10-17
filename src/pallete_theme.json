@@ -1,0 +1,77 @@
+{
+  "default": {
+    "color": "fffefe",
+    "text": "4f94ef",
+    "textBg": "434d58"
+  },
+  "dark": {
+    "color": "151515",
+    "text": "dadada",
+    "textBg": "9f9f9f"
+  },
+  "radical": {
+    "color": "141321",
+    "text": "d83a7c",
+    "textBg": "a9fef7"
+  },
+  "merko": {
+    "color": "0a0f0b",
+    "text": "90b302",
+    "textBg": "68b587"
+  },
+  "gruvbox": {
+    "color": "282828",
+    "text": "d8a52d",
+    "textBg": "8ec07c"
+  },
+  "gruvbox_light": {
+    "color": "fbf1c7",
+    "text": "bf8930",
+    "textBg": "427b58"
+  },
+  "tokyonight": {
+    "color": "1a1b27",
+    "text": "628fda",
+    "textBg": "38bdae"
+  },
+  "onedark": {
+    "color": "282c34",
+    "text": "c6a76e",
+    "textBg": "df6d74"
+  },
+  "cobalt": {
+    "color": "193549",
+    "text": "c576c1",
+    "textBg": "75eeb2"
+  },
+  "catppuccin-mocha": {
+    "color": "1e1e2e",
+    "text": "cdd6f4",
+    "textBg": "313244"
+  },
+  "catppuccin-latte": {
+    "color": "eff1f5",
+    "text": "4c4f69",
+    "textBg": "ccd0da"
+  },
+  "github-dark": {
+    "color": "0d1117",
+    "text": "58a6ff",
+    "textBg": "161b22"
+  },
+  "tokyonight-storm": {
+    "color": "24283b",
+    "text": "7aa2f7",
+    "textBg": "1f2335"
+  },
+  "nord-dark": {
+    "color": "2e3440",
+    "text": "88c0d0",
+    "textBg": "3b4252"
+  },
+  "synthwave84": {
+    "color": "2b213a",
+    "text": "ff7edb",
+    "textBg": "241b2f"
+  }
+}
