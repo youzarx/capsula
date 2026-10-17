@@ -103,20 +103,10 @@ a {
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.6rem;
 }
 
-.header-link {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  transition: color 0.15s ease;
-}
-
-.header-link:hover {
-  color: var(--text-strong);
-}
-
+.header-icon-link,
 .theme-toggle {
   width: 2.25rem;
   height: 2.25rem;
@@ -128,11 +118,20 @@ a {
   border: 1px solid var(--border);
   cursor: pointer;
   transition: all 0.15s ease;
+  text-decoration: none;
 }
 
+.header-icon-link:hover,
 .theme-toggle:hover {
   color: var(--text-strong);
   border-color: var(--accent);
+  background: rgba(0, 210, 255, 0.06);
+}
+
+.header-icon-link svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: currentColor;
 }
 
 .theme-toggle svg {
