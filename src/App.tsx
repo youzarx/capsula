@@ -134,7 +134,6 @@ export default function App() {
           rel="noreferrer"
         >
           <span className="brand-logo">Capsula</span>
-          <span className="brand-tag">v2.0</span>
         </a>
 
         <div className="header-actions">
@@ -207,27 +206,6 @@ export default function App() {
         />
       </div>
 
-      <footer className="site-footer">
-        <p className="footer-attribution">
-          <strong>Capsula</strong> — An enhanced evolution of{" "}
-          <a
-            href="https://github.com/kyechan99/capsule-render"
-            target="_blank"
-            rel="noreferrer"
-          >
-            capsule-render
-          </a>{" "}
-          by kyechan99, licensed under the{" "}
-          <a
-            href="https://opensource.org/licenses/MIT"
-            target="_blank"
-            rel="noreferrer"
-          >
-            MIT License
-          </a>
-          . Developed for the <strong>youzarx</strong> profile ecosystem.
-        </p>
-      </footer>
     </main>
   );
 }
