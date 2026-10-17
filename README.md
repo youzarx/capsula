@@ -43,7 +43,7 @@ Capsula is an enhanced and security-hardened evolution of [`capsule-render`](htt
 
 ## Features
 
-- **18 Distinct Render Models:** 13 static geometric shapes (`wave`, `rect`, `slice`, `cylinder`, `diagonal`, `dots`, `curve`, etc.) and 5 kinetic animated models (`waving`, `venom`, `pulse`, `checkered`, `blur`).
+- **21 Distinct Render Models:** 16 static geometric shapes (`wave`, `rect`, `slice`, `cylinder`, `diagonal`, `dots`, `curve`, `circuit`, `neon`, `prism`, etc.) and 5 kinetic animated models (`waving`, `venom`, `pulse`, `checkered`, `blur`).
 - **15 Integrated Designer Themes:** Full support for `github-dark`, `tokyonight-storm`, `catppuccin-mocha`, `nord-dark`, `synthwave84`, `radical`, `onedark`, and more.
 - **Directional Gradient Engine:** Configure linear gradient rotations across $0^\circ$ to $360^\circ$ (`gradientAngle`) with multi-stop color support.
 - **Dynamic Text & Multiline Layouts:** Primary titles and subtitles with multiline line-breaking (`-nl-`), independent XY alignments, font rotation, and custom font stacks.
@@ -132,6 +132,9 @@ The Capsula API accepts query parameters via HTTP `GET` requests to `/api`.
 | | `diagonal` | Sharp diagonal gradient edge |
 | | `curve` | Smooth bezier arc banner |
 | | `dots` | Vector dot-matrix patterned canvas |
+| | `circuit` | High-tech motherboard / PCB circuit traces & nodes |
+| | `neon` | Cyberpunk perspective grid with horizon neon glow |
+| | `prism` | Modern chamfered/beveled geometric polygon banner |
 | | `transparent` | Transparent background, text & subtitle only |
 | **Animation Shapes** | `waving` | Live SVG animated wave flow |
 | | `venom` | Liquid pulsing bio-wave animation |

@@ -369,7 +369,7 @@ describe("Security & Correctness Regression Suite", () => {
   });
 
   describe("New Models: Diagonal, Curve, Dots", () => {
-    const newModels = ["diagonal", "curve", "dots"];
+    const newModels = ["diagonal", "curve", "dots", "circuit", "neon", "prism"];
 
     it("renders valid SVG without parser errors for all new models", () => {
       const parser = new DOMParser();

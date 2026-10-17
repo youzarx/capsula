@@ -30,6 +30,9 @@ export const FALLBACK_SHAPE_TYPES = [
   "diagonal",
   "curve",
   "dots",
+  "circuit",
+  "neon",
+  "prism",
 ] as const;
 
 export const FALLBACK_ANIMATION_OPTIONS = [

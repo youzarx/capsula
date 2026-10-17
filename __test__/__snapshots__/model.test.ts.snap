@@ -461,6 +461,207 @@ exports[`Test Models checkered model 1`] = `
 </svg>
 `;
 
+exports[`Test Models circuit model 1`] = `
+<svg
+  height="300"
+  viewBox="0 0 854 300"
+  width="854"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  
+        
+  <style>
+    
+      .text {   font-size: 20px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 30px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .text, .desc {   transform-origin: center center;   transform: rotate(1deg);  } 
+      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
+    
+  </style>
+  
+        
+  <svg
+    viewBox="0 0 854 300"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    
+          
+    <defs>
+      
+              
+      <lineargradient
+        id="linear"
+        x1="0%"
+        x2="100%"
+        y1="0%"
+        y2="0%"
+      >
+        
+                
+        <stop
+          offset="0%"
+          stop-color="#ddd6f3"
+        />
+        <stop
+          offset="100%"
+          stop-color="#faaca8"
+        />
+        
+              
+      </lineargradient>
+      
+            
+    </defs>
+    
+          
+      
+    <rect
+      fill="url(#linear)"
+      fill-opacity="0.08"
+      height="300"
+      rx="12"
+      ry="12"
+      transform="scale (-1, 1)"
+      transform-origin="center"
+      width="854"
+    />
+    
+      
+    <rect
+      fill="none"
+      height="296"
+      rx="10"
+      ry="10"
+      stroke="url(#linear)"
+      stroke-opacity="0.25"
+      stroke-width="1"
+      width="850"
+      x="2"
+      y="2"
+    />
+    
+      
+    <g
+      fill="none"
+      stroke="url(#linear)"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-opacity="0.6"
+      stroke-width="1.8"
+    >
+      
+        
+      <path
+        d="M 20 20 L 90 20 L 130 60 L 220 60"
+      />
+      
+        
+      <path
+        d="M 20 280 L 80 280 L 120 240 L 240 240"
+      />
+      
+        
+      <path
+        d="M 834 20 L 764 20 L 724 60 L 634 60"
+      />
+      
+        
+      <path
+        d="M 834 280 L 774 280 L 734 240 L 614 240"
+      />
+      
+        
+      <path
+        d="M 40 290 L 814 290"
+        stroke-dasharray="16, 8"
+      />
+      
+      
+    </g>
+    
+      
+    <g
+      fill="url(#linear)"
+      opacity="0.85"
+    >
+      
+        
+      <circle
+        cx="220"
+        cy="60"
+        r="3.5"
+      />
+      
+        
+      <circle
+        cx="240"
+        cy="240"
+        r="3.5"
+      />
+      
+        
+      <circle
+        cx="634"
+        cy="60"
+        r="3.5"
+      />
+      
+        
+      <circle
+        cx="614"
+        cy="240"
+        r="3.5"
+      />
+      
+        
+      <circle
+        cx="90"
+        cy="20"
+        r="2.5"
+      />
+      
+        
+      <circle
+        cx="764"
+        cy="20"
+        r="2.5"
+      />
+      
+      
+    </g>
+    
+    
+        
+  </svg>
+  
+         
+  <text
+    class="text"
+    dominant-baseline="middle"
+    stroke="#none"
+    stroke-width="1"
+    style="fill:#f7f5f5;"
+    text-anchor="middle"
+    x="40%"
+    y="50%"
+  >
+    circuit
+  </text>
+  
+        
+  <text
+    class="desc"
+    dominant-baseline="middle"
+    style="fill:#f7f5f5;"
+    text-anchor="middle"
+    x="40%"
+    y="50%"
+  >
+    circuit
+  </text>
+  
+      
+</svg>
+`;
+
 exports[`Test Models curve model 1`] = `
 <svg
   height="300"
@@ -955,6 +1156,404 @@ exports[`Test Models egg model 1`] = `
     y="50%"
   >
     egg
+  </text>
+  
+      
+</svg>
+`;
+
+exports[`Test Models neon model 1`] = `
+<svg
+  height="300"
+  viewBox="0 0 854 300"
+  width="854"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  
+        
+  <style>
+    
+      .text {   font-size: 20px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 30px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .text, .desc {   transform-origin: center center;   transform: rotate(1deg);  } 
+      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
+    
+  </style>
+  
+        
+  <svg
+    viewBox="0 0 854 300"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    
+          
+    <defs>
+      
+              
+      <lineargradient
+        id="linear"
+        x1="0%"
+        x2="100%"
+        y1="0%"
+        y2="0%"
+      >
+        
+                
+        <stop
+          offset="0%"
+          stop-color="#ddd6f3"
+        />
+        <stop
+          offset="100%"
+          stop-color="#faaca8"
+        />
+        
+              
+      </lineargradient>
+      
+            
+    </defs>
+    
+          
+      
+    <defs>
+      
+        
+      <lineargradient
+        id="neon-fade"
+        x1="0%"
+        x2="0%"
+        y1="0%"
+        y2="100%"
+      >
+        
+          
+        <stop
+          offset="0%"
+          stop-color="url(#linear)"
+          stop-opacity="0.04"
+        />
+        
+          
+        <stop
+          offset="60%"
+          stop-color="url(#linear)"
+          stop-opacity="0.12"
+        />
+        
+          
+        <stop
+          offset="100%"
+          stop-color="url(#linear)"
+          stop-opacity="0.28"
+        />
+        
+        
+      </lineargradient>
+      
+      
+    </defs>
+    
+      
+    <rect
+      fill="url(#linear)"
+      fill-opacity="0.06"
+      height="300"
+      transform="scale (-1, 1)"
+      transform-origin="center"
+      width="854"
+    />
+    
+      
+    <rect
+      fill="url(#neon-fade)"
+      height="135"
+      width="854"
+      y="165"
+    />
+    
+      
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.22"
+      stroke-width="1.2"
+      x1="342"
+      x2="85"
+      y1="165"
+      y2="300"
+    />
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.22"
+      stroke-width="1.2"
+      x1="363"
+      x2="171"
+      y1="165"
+      y2="300"
+    />
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.22"
+      stroke-width="1.2"
+      x1="384"
+      x2="256"
+      y1="165"
+      y2="300"
+    />
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.22"
+      stroke-width="1.2"
+      x1="406"
+      x2="342"
+      y1="165"
+      y2="300"
+    />
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.22"
+      stroke-width="1.2"
+      x1="448"
+      x2="512"
+      y1="165"
+      y2="300"
+    />
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.22"
+      stroke-width="1.2"
+      x1="470"
+      x2="598"
+      y1="165"
+      y2="300"
+    />
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.22"
+      stroke-width="1.2"
+      x1="491"
+      x2="683"
+      y1="165"
+      y2="300"
+    />
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.22"
+      stroke-width="1.2"
+      x1="513"
+      x2="769"
+      y1="165"
+      y2="300"
+    />
+    
+      
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.2"
+      stroke-width="1"
+      x1="0"
+      x2="854"
+      y1="192"
+      y2="192"
+    />
+    
+      
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.28"
+      stroke-width="1.2"
+      x1="0"
+      x2="854"
+      y1="233"
+      y2="233"
+    />
+    
+      
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.4"
+      stroke-width="1.5"
+      x1="0"
+      x2="854"
+      y1="276"
+      y2="276"
+    />
+    
+      
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.8"
+      stroke-width="2"
+      x1="0"
+      x2="854"
+      y1="165"
+      y2="165"
+    />
+    
+      
+    <line
+      stroke="url(#linear)"
+      stroke-opacity="0.9"
+      stroke-width="3"
+      x1="0"
+      x2="854"
+      y1="300"
+      y2="300"
+    />
+    
+    
+        
+  </svg>
+  
+         
+  <text
+    class="text"
+    dominant-baseline="middle"
+    stroke="#none"
+    stroke-width="1"
+    style="fill:#f7f5f5;"
+    text-anchor="middle"
+    x="40%"
+    y="50%"
+  >
+    neon
+  </text>
+  
+        
+  <text
+    class="desc"
+    dominant-baseline="middle"
+    style="fill:#f7f5f5;"
+    text-anchor="middle"
+    x="40%"
+    y="50%"
+  >
+    neon
+  </text>
+  
+      
+</svg>
+`;
+
+exports[`Test Models prism model 1`] = `
+<svg
+  height="300"
+  viewBox="0 0 854 300"
+  width="854"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  
+        
+  <style>
+    
+      .text {   font-size: 20px;   font-weight: 700;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .desc {   font-size: 30px;   font-weight: 500;   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  } .text, .desc {   transform-origin: center center;   transform: rotate(1deg);  } 
+      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
+    
+  </style>
+  
+        
+  <svg
+    viewBox="0 0 854 300"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    
+          
+    <defs>
+      
+              
+      <lineargradient
+        id="linear"
+        x1="0%"
+        x2="100%"
+        y1="0%"
+        y2="0%"
+      >
+        
+                
+        <stop
+          offset="0%"
+          stop-color="#ddd6f3"
+        />
+        <stop
+          offset="100%"
+          stop-color="#faaca8"
+        />
+        
+              
+      </lineargradient>
+      
+            
+    </defs>
+    
+          
+      
+    <path
+      d="M 0 0 L 854 0 L 854 264 L 818 300 L 36 300 L 0 264 Z"
+      fill="url(#linear)"
+      fill-opacity="0.95"
+      transform="scale (-1, 1)"
+      transform-origin="center"
+    />
+    
+      
+    <path
+      d="M 6 6 L 848 6 L 848 262 L 816 294 L 38 294 L 6 262 Z"
+      fill="none"
+      stroke="url(#linear)"
+      stroke-opacity="0.3"
+      stroke-width="1.5"
+    />
+    
+      
+    <path
+      d="M 48 290 L 806 290"
+      fill="none"
+      stroke="#ffffff"
+      stroke-linecap="round"
+      stroke-opacity="0.4"
+      stroke-width="2"
+    />
+    
+      
+    <polygon
+      fill="url(#linear)"
+      opacity="0.6"
+      points="36,300 44,292 36,292"
+    />
+    
+      
+    <polygon
+      fill="url(#linear)"
+      opacity="0.6"
+      points="818,300 810,292 818,292"
+    />
+    
+    
+        
+  </svg>
+  
+         
+  <text
+    class="text"
+    dominant-baseline="middle"
+    stroke="#none"
+    stroke-width="1"
+    style="fill:#f7f5f5;"
+    text-anchor="middle"
+    x="40%"
+    y="50%"
+  >
+    prism
+  </text>
+  
+        
+  <text
+    class="desc"
+    dominant-baseline="middle"
+    style="fill:#f7f5f5;"
+    text-anchor="middle"
+    x="40%"
+    y="50%"
+  >
+    prism
   </text>
   
       

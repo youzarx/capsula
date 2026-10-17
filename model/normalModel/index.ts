@@ -11,6 +11,9 @@ import speech from "./speech";
 import diagonal from "./diagonal";
 import curve from "./curve";
 import dots from "./dots";
+import circuit from "./circuit";
+import neon from "./neon";
+import prism from "./prism";
 
 export default {
   cylinder,
@@ -26,5 +29,8 @@ export default {
   diagonal,
   curve,
   dots,
+  circuit,
+  neon,
+  prism,
 };
 
