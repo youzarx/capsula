@@ -9,7 +9,11 @@ import {
   FALLBACK_SHAPE_TYPES,
   THEME_OPTIONS,
 } from "./generator/config";
-import { createPublicImageUrl, createQueryString } from "./generator/query";
+import {
+  createPublicImageUrl,
+  createQueryString,
+  resolvePublicApiBase,
+} from "./generator/query";
 import type { GeneratorQuery, QueryKey } from "./generator/types";
 
 async function copyText(value: string): Promise<boolean> {
@@ -69,7 +73,12 @@ export default function App() {
   useEffect(() => {
     const controller = new AbortController();
 
-    fetch("/api/options", { signal: controller.signal })
+    const apiBase = resolvePublicApiBase();
+    const optionsUrl = apiBase.isConfigured
+      ? `${apiBase.baseUrl}/options`
+      : "/api/options";
+
+    fetch(optionsUrl, { signal: controller.signal })
       .then(response => {
         if (!response.ok) throw new Error("Unable to load generator options.");
         return response.json();

@@ -15,10 +15,18 @@ export type PublicApiResolution = {
 export function resolvePublicApiBase(): PublicApiResolution {
   const envUrl = (import.meta as any).env?.VITE_PUBLIC_API_URL;
   if (typeof envUrl === "string" && envUrl.trim() !== "") {
-    return {
-      baseUrl: envUrl.trim().replace(/\/+$/, ""),
-      isConfigured: true,
-    };
+    const trimmed = envUrl.trim().replace(/\/+$/, "");
+    try {
+      const parsed = new URL(trimmed);
+      if (parsed.protocol === "http:" || parsed.protocol === "https:") {
+        return {
+          baseUrl: trimmed,
+          isConfigured: true,
+        };
+      }
+    } catch {
+      // Invalid URL format, fall through to auto-detection
+    }
   }
 
   if (typeof window !== "undefined" && window.location) {
@@ -38,7 +46,7 @@ export function resolvePublicApiBase(): PublicApiResolution {
   }
 
   return {
-    baseUrl: "/api",
+    baseUrl: "https://<your-deployed-domain>/api",
     isConfigured: false,
     message:
       "Public snippets require a deployed domain or VITE_PUBLIC_API_URL configured.",

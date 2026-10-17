@@ -3,6 +3,21 @@ import { regexData } from "../src/verification";
 
 export default (req: any, res: any) => {
   try {
+    if (typeof res?.setHeader === "function") {
+      res.setHeader("Access-Control-Allow-Origin", "*");
+      res.setHeader("Access-Control-Allow-Methods", "GET, OPTIONS");
+      res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+    }
+
+    if (req?.method === "OPTIONS") {
+      if (typeof res?.status === "function") {
+        res.status(204).end();
+      } else if (typeof res?.send === "function") {
+        res.send("");
+      }
+      return;
+    }
+
     const rawType = Array.isArray(req?.query?.type)
       ? req.query.type[0]
       : req?.query?.type;
@@ -24,7 +39,13 @@ export default (req: any, res: any) => {
     const model = new Models[type](query);
     const svg = model.render();
 
-    res.setHeader("Content-Type", "image/svg+xml");
+    if (typeof res?.setHeader === "function") {
+      res.setHeader("Content-Type", "image/svg+xml");
+      res.setHeader(
+        "Cache-Control",
+        "public, max-age=7200, s-maxage=86400, stale-while-revalidate=604800",
+      );
+    }
     res.send(svg);
   } catch (err: any) {
     const status =
@@ -37,7 +58,10 @@ export default (req: any, res: any) => {
     if (typeof res?.status === "function") {
       res.status(status);
     }
-    res.setHeader("Content-Type", "text/html");
+    if (typeof res?.setHeader === "function") {
+      res.setHeader("Content-Type", "text/html");
+      res.setHeader("Cache-Control", "no-cache, no-store, must-revalidate");
+    }
     const message =
       status === 500
         ? "Internal Server Error"
